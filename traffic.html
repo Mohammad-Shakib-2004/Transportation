@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Management</title>
+    <link rel="stylesheet" href="traffic.css">
+</head>
+<body>
+<header>
+    <h1>Traffic Management</h1>
+    <nav>
+        <a href="index.html" target="blank">Home</a>
+    </nav>
+</header>
+
+<main>
+    <!-- Real-Time Traffic Information Section -->
+    <section id="traffic-info-section">
+        <h2>Real-Time Traffic Information</h2>
+        <div id="trafficInfo">
+            <!-- Simulated traffic flow -->
+            <p><strong>Current Traffic Flow:</strong> Moderate (35 km/h)</p>
+            <p><strong>Signal Status:</strong> Green</p>
+        </div>
+    </section>
+
+    <!-- Traffic Light Control Section -->
+    <section id="traffic-light-section">
+        <h2>Traffic Light Control</h2>
+        <button id="toggleLights">Toggle Traffic Lights</button>
+        <div id="trafficLights">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green active"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Transportation Management System</p>
+</footer>
+
+<script src="traffic.js"></script>
+</body>
+</html>

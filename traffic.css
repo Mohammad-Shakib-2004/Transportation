@@ -1,0 +1,92 @@
+/* Basic Body and Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+
+/* Traffic Information Section */
+#traffic-info-section {
+    background-color: #e9f5ff;
+    padding: 15px;
+    border: 1px solid #007acc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+#traffic-info-section h2 {
+    margin-top: 0;
+}
+#trafficInfo p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Traffic Light Control Section */
+#traffic-light-section {
+    background-color: #fff3e6;
+    padding: 15px;
+    border: 1px solid #ff9933;
+    border-radius: 8px;
+}
+#toggleLights {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#toggleLights:hover {
+    background-color: #005f99;
+}
+#trafficLights {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    background-color: gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.red.active {
+    background-color: red;
+}
+.yellow.active {
+    background-color: yellow;
+}
+.green.active {
+    background-color: green;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
